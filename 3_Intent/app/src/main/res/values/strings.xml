@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Module3Practise</string>
+    <string name="hello_world">Hello World</string>
+    <string name="button_text">Click Me</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="go_to_second_activity">Go to Second Activity</string>
+    <string name="go_back_to_main_activity">Go back to main activity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+</resources>

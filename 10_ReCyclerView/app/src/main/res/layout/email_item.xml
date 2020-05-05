@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="172dp"
+        android:layout_gravity="center"
+        card_view:cardElevation="5dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewSubject"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="279dp"
+                android:layout_height="39dp"
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="80dp"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="100dp"
+                android:text="Do" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

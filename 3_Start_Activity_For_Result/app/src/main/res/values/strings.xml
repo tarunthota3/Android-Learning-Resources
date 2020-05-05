@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Module3_Start_Activity_For_Result</string>
+    <string name="go_to_Second">Go To Second Activity</string>
+    <string name="second_Activity">Second Activity</string>
+    <string name="enter_some_text">Enter Some Text</string>
+    <string name="send_result">Send Result</string>
+    <string name="main_acticity">Main Acticity</string>
+</resources>
